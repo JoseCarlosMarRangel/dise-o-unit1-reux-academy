@@ -1,9 +1,9 @@
 <?php
 
-$bd = 'id17625741_prueba';
+$bd = 'prueba';
 $servidor = 'localhost';
-$usuario = 'id17625741_root';
-$contrasena = 'Minecrafteo123@';
+$usuario = 'root';
+$contrasena = '';
 
 //*Creamos la conexión a la base de datos
 $conexion = mysqli_connect($servidor, $usuario, $contrasena, $bd);
@@ -50,3 +50,4 @@ function retornar_datos_usuario($usuario, $conexion)
         die("Error: " . mysqli_error($conexion));
     }
 };
+?>
