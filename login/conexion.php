@@ -2,8 +2,8 @@
 
 $bd = 'prueba';
 $servidor = 'localhost';
-$usuario = 'root';
-$contrasena = '';
+$usuario = 'ghost';
+$contrasena = '123';
 
 //*Creamos la conexión a la base de datos
 $conexion = mysqli_connect($servidor, $usuario, $contrasena, $bd);
